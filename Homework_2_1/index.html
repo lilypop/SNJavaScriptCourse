@@ -3,16 +3,15 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Guess the number game</title>
-	<!-- JavaScript files on the top because of the button click -->
-	<script type="text/javascript" src="script.js"></script>
 </head>
 <body>
 	<p>Choose the number between 1 and 100:</p>
 	<input id="inputNumber" type="number" name="number">
 	<button OnClick="guessNumber()">Try it!</button>
-	<p>Answer is: <span class="answer"></span></p>
+	<p>Answer is:</p>
+	<p id="answer"></p>
 
 	<!-- JavaScript files (must be at the end of body!) -->
-	<!--script type="text/javascript" src="script.js"></script-->
+	<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
