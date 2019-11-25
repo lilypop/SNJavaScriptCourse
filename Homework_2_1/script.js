@@ -12,8 +12,8 @@ console.log("Secret number is: "+secret);
 
 function guessNumber() {
 	//console.log("Secret number in guessNumber function: "+secret);
-	
 	let result = document.getElementById("inputNumber").value;
+	
 	if (result >=1 & result <=100)  {
 		if (result == secret) {
 			console.log("You win the game. Wooohooo congrats!");
@@ -37,4 +37,5 @@ function guessNumber() {
 
 }//end of function guessNumber()
 
-
+let button = document.getElementById("check-result");
+button.addEventListener("click", guessNumber);
