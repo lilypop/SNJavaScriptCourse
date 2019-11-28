@@ -1,0 +1,45 @@
+html {
+    margin: 20px;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+#search-container,
+#pagination-container {
+    text-align: center;
+    padding: 15px 0;
+}
+
+#search-container {
+    width: 30%;
+    margin: 0 auto;
+}
+
+#result-container {
+    margin: 0 auto;
+}
+
+#result-container div {
+    padding: 10px;
+    float: left;
+}
+
+#result-container div img {
+    float: left;
+    margin: 0px 15px 0px 0px;
+}
+
+#result-container div span {
+    font-weight: 900;
+}
+
+.pagination-button {
+    display: none;
+}

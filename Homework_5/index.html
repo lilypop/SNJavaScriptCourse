@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <script src="https://kit.fontawesome.com/78e9f04d4f.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="./base.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        <title>XHTTP request</title>
+    </head>
+    <body>
+        <h1><i class="far fa-eye"></i> Searchovie</h1>
+        <div id="search-container">
+            <div class="input-group">
+                <input name="text" id="search" placeholder="Enter your movie" class="form-control">
+                <div class="input-group-append">
+                <button id="search-button" class="btn btn-primary"><i class="fas fa-search"></i> </button>
+            </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="result-container" class="row"></div>
+            <div id="pagination-container">
+            <!-- Gumbi se prikažejo če je več kot 10 zadetkov; torej število zadetkov / 10 dobiš število gumbov -->
+            <button class="pagination-button"></button>
+            </div>
+        </div>
+        <!-- JavaScript files (must be at the end of body!) -->
+        <script src="./script.js"></script>
+    </body>
+</html>
