@@ -23,7 +23,7 @@ h1 {
 }
 
 #result-container {
-    margin: 0 auto;
+    margin: 30px auto;
 }
 
 #result-container div {
@@ -40,6 +40,10 @@ h1 {
     font-weight: 900;
 }
 
-.pagination-button {
-    display: none;
+#total-results {
+    text-align: center;
+}
+
+#pagination-button {
+    margin: 5px;
 }
