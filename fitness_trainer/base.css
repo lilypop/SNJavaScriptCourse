@@ -1,0 +1,24 @@
+html {
+    margin: 20px;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+input {
+    float: left;
+}
+ #container-food, #container-show, #container-itm, #container-graph {
+    margin: 30px auto;
+ }
+
+#graph_results {
+    height: 270px;
+    width: 100%;
+}
